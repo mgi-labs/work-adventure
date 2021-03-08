@@ -1067,6 +1067,19 @@
          "tileheight":32,
          "tilewidth":32,
          "transparentcolor":"#ff00ff"
+        }, 
+        {
+         "columns":16,
+         "firstgid":12355,
+         "image":"Modern tiles_Free\/Interiors_free\/32x32\/Interiors_free_32x32.png",
+         "imageheight":1792,
+         "imagewidth":512,
+         "margin":0,
+         "name":"Interiors_free_32x32",
+         "spacing":0,
+         "tilecount":896,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
