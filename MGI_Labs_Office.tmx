@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="left-up" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="1">
+ <tileset firstgid="1" source="TileSets/Tileset_32x32_16.tsx"/>
+ <tileset firstgid="169" source="TileSets/office_walls_n_floors.tsx"/>
+ <tileset firstgid="361" source="TileSets/Dungeon Tileset + Spikes.tsx"/>
+ <tileset firstgid="391" source="TileSets/Interiors_free_32x32.tsx"/>
+ <tileset firstgid="1287" source="TileSets/office_stuff.tsx"/>
+ <tileset firstgid="1815" source="TileSets/interior.tsx"/>
+ <tileset firstgid="6607" source="../TestMap/passages.tsx"/>
+ <layer id="1" name="floor1" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztln0OwyAIxfVm+zhAba+zy2//mL0aBAaoydKXkDRW+xN4NaZ06dJX98HB6ZFTek6Ino7Puy04SvO8T+JXFjU2M/9/4Nd1bYzi93jIleZw4eV7w9J/9DPub0X9R+cfzS/Zlv9GrLWyPfX/9Z+gzj9cb8lf46sovhTSvMIwOGH+vfOv8qWeW/maPh/5XFuqD9782+/jmHRPGc3H/Cmfefmcfzk+nhWUXsK+KH7LKfnsk0i+9v6J/u/1ypt/+x9S9Uc+1iDKf5r+97xi5d8UIc2zajV/hd4rkb4Z
+  </data>
+ </layer>
+ <layer id="2" name="wall_roots1" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowACNIFYi8ZYm26+GQWjYBSMAvoDRyB2HmhHjIJRMEwBejsFBtD5o2BoAXztTxgYjd9RMAqoBwDRKAcT
+  </data>
+ </layer>
+ <layer id="12" name="stuff" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt00ENACAMBMFLgOJfBDIQgRDQACbI9bGT9L33qQT8t0M64euXLtV3w7ghg9G8/WnuL3MfcOL/vX0AADK4u2gHLA==
+  </data>
+ </layer>
+ <layer id="7" name="stuff1" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowAC2FkZGHiBmIcVU64SKMaNJH+ZBbsZ6OpIAbJA9cpArATEDWwMDI1AvJQNItcPFFNEkn+Mw350daNg6AB2AumLkrRFDJAlkL6okbb62Chz42AHS4HhUjWA+W430O4JZNqPnP7I9cNFCvyOnP6w+WEpEWnnDxvxakcB/YEinnjBV//SA8hSWLaNdLCYDXe7ZBQMPTCTiYFhFhP97EMus82hZcFAlQe+0LJgoMqD5NEyiC4AACbCGXI=
+  </data>
+ </layer>
+ <layer id="3" name="wall2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwUUAHENjXEK3XwzCkbBKBgF9AdTgLhjoB0xCkbBMAXobQp08VEwNAG+9icMjMbvKBgFwwcAAHPFFE0=
+  </data>
+ </layer>
+ <layer id="4" name="wall3" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFMFAAxDU0xil0880oGAWjYBTQH0wB4o6BdsQoGAXDFBBqY4yCoQmIbX+OglEwCkYBNQAA1nEWPQ==
+  </data>
+ </layer>
+ <layer id="6" name="roof" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1kEKACAIBEB7t58P+kBdrJAR9ursRTBHRMrKreHz+X393b7u/mk/Pp9fd/+v/h8+n8/n/58Jr4uzOQ==
+  </data>
+ </layer>
+ <layer id="10" name="windows" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYBYMdcLIwMHDhwbQGkkA7pJAwDKDzh6v9tAKE4pXW8YserrjCeLjaPwpGwUgDAKRNBD8=
+  </data>
+ </layer>
+ <layer id="8" name="stuff2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwnEsDIwxLISL9cK5LdhUX8SKHYKiF2hcnpAWh+HuTDQyMbAUARUU4ykrh8o1s7EwCAkipCbjyQ/G8ieA+UXAmkbKPs+kH4AxNGsEP3I5uEDHUD1nUAcgkUdTG4rAX+AwFegmm9o6h4D+U8I6I0F2hsHxFlY7IfJEQOwqf0JtPsXAfuLgXpKcNiBT44YtZkE9OJLeyCgDNTPCkoPRIQ/OQCWvnhxuNMSKC4NxHOh9nMTGRYgAPN7BR49sPSFCyij6VUkwX5iAHqaQY8vSzbs6qgFiE1fpKRDUsA8VsJpyxEo78SKmw8ChWSmzy2siLSljcUMUNkVDhSPQJJD5z+DlpeEyjlyQS7QrjxW3HxCQIQFtxyt0hUyUMFjP63SFTIgVGbQqmwjFswdYPuJBXpIbQtqAmLT4BI2SNsCGfQCxS7jSV/EAGLT4C4ap9OBAsS0E+kFOoHlaBcTqtgSGoY7cpkNq4vQywN6xTtyXSQ6SOKDGIDeRqIEkFMfWVJgfyWaXnLqI1rV+7QCAGd/RE8=
+  </data>
+ </layer>
+ <layer id="9" name="stuff3" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AASrAwMkqzEq9/BBKEr2ajrDmqbhw1sE6e9HaSC10B/vwHiEDr4HxtgZGdgYALirAGyn1qAFeh+tgH0gzTQbpkhHoa0BIbMA2u/Iw3tJ6bsusBGvNpRMAoGIzhKRP1JanuCHqB8NM9RDEiJV39RBoYAIA4UpZ79ekC79aH2VwLboFVMuNWGA+2NAOJIKtlPaplNbftJBaP2D6z98UB7E4A4Ecn+0XqfNAAAzTEVQQ==
+  </data>
+ </layer>
+ <layer id="13" name="stuff4" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztz8ENgCAQRNG5bAHUQbHoCagCm8C63B4wWYP/JXP+GQk7K0k6fGeK6VfvNl8P6gMAAOA9w6TL4vrT23dg/wvyz/9jzQOF8QcN
+  </data>
+ </layer>
+ <layer id="5" name="roof_finish5" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIMALxGp0whZY7JekjbewgsBR+0ftH7WfZvYvBeIlA2i/NAHzaG3/IiBeOID2EwKj9o/aP5TtB5Uv+NoXlgTkF1NovzQBeWz+IwRGuv2ktD+Ho/9H7R+1fyTbr8pAfP5fREAeW/mOCwAAprIcRw==
+  </data>
+ </layer>
+ <layer id="14" name="passages" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlUsKwzAMRHON3P9CbTahGHKWxqSGICTN+Ce6yICgrlW92h7Ly/Io61hjI5Kv1f9H/ueM/YzUMI/yEsHPeq1XaPLmmFyGv//+uyZvjslNBH+2avyHckbz775p8Sgjr/YG/FXOE/kQ7Y/FZ/3l5THnM9N/PXzGX3Lv5biHj7yl1ZbjcjbofLTvkf9GyOPX9LdWefcvQiN6m5Vb+ybLmmxvY/i1Yt7fCD7jwXdH70W/Q+eVPxe+td6H38ZnNXP9cqzVj1i/VyNq/633yOP33v+7rF7g3X+rFsMfGay+KadRKA==
+  </data>
+ </layer>
+ <layer id="15" name="meet" width="32" height="32" visible="0">
+  <properties>
+   <property name="jitsiRoom" value="Daily"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzbEJAAAIBLHffy0XcwFLC8EErr4EAAC4rob8/f1//Lc0QHQeeQ==
+  </data>
+ </layer>
+</map>
