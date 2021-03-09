@@ -875,47 +875,47 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/Downloads\/WorkMap\/TileSets\/pokemon_tileset_from_public_tiles_32x32_by_chaoticcherrycake_dab2byf.tsx"
+         "source":"TileSets\/pokemon_tileset_from_public_tiles_32x32_by_chaoticcherrycake_dab2byf.tsx"
         }, 
         {
          "firstgid":5209,
-         "source":"..\/..\/..\/Downloads\/WorkMap\/TileSets\/office_walls_n_floors.tsx"
+         "source":"TileSets\/office_walls_n_floors.tsx"
         }, 
         {
          "firstgid":5401,
-         "source":"..\/..\/..\/Downloads\/WorkMap\/TileSets\/interior.tsx"
+         "source":"TileSets\/interior.tsx"
         }, 
         {
          "firstgid":10193,
-         "source":"..\/..\/..\/Downloads\/WorkMap\/TileSets\/Tileset_32x32_16.tsx"
+         "source":"TileSets\/Tileset_32x32_16.tsx"
         }, 
         {
          "firstgid":10361,
-         "source":"..\/..\/..\/Downloads\/WorkMap\/TileSets\/request_april_by_nicnubill_d7dvydh.tsx"
+         "source":"TileSets\/request_april_by_nicnubill_d7dvydh.tsx"
         }, 
         {
          "firstgid":10617,
-         "source":"..\/..\/..\/Downloads\/WorkMap\/TileSets\/Interiors_free_32x32.tsx"
+         "source":"TileSets\/Interiors_free_32x32.tsx"
         }, 
         {
          "firstgid":11513,
-         "source":"..\/..\/..\/Downloads\/WorkMap\/TileSets\/office_stuff.tsx"
+         "source":"TileSets\/office_stuff.tsx"
         }, 
         {
          "firstgid":12041,
-         "source":"..\/..\/..\/Downloads\/WorkMap\/TileSets\/Dungeon Tileset + Spikes.tsx"
+         "source":"TileSets\/Dungeon Tileset + Spikes.tsx"
         }, 
         {
          "firstgid":12071,
-         "source":"..\/..\/..\/Downloads\/WorkMap\/buttonset1.tsx"
+         "source":"buttonset1.tsx"
         }, 
         {
          "firstgid":12083,
-         "source":"..\/..\/..\/Downloads\/WorkMap\/TileSets\/tilesets_fsm_rm2k3_para_vx_ace__set_hospital_by_milkian_darwnhe.tsx"
+         "source":"TileSets\/tilesets_fsm_rm2k3_para_vx_ace__set_hospital_by_milkian_darwnhe.tsx"
         }, 
         {
          "firstgid":12339,
-         "source":"..\/..\/..\/Downloads\/WorkMap\/TileSets\/passages.tsx"
+         "source":"TileSets\/passages.tsx"
         }],
  "tilewidth":32,
  "type":"map",
