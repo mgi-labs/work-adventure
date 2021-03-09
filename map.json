@@ -1,4 +1,12 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"json",
+         "target":"map.json"
+        }
+    },
  "height":64,
  "infinite":false,
  "layers":[
@@ -874,48 +882,191 @@
  "tileheight":32,
  "tilesets":[
         {
+         "columns":8,
          "firstgid":1,
-         "source":"TileSets\/pokemon_tileset_from_public_tiles_32x32_by_chaoticcherrycake_dab2byf.tsx"
+         "image":"tile_images\/pokemon_tileset_from_public_tiles_32x32_by_chaoticcherrycake_dab2byf.png",
+         "imageheight":20832,
+         "imagewidth":256,
+         "margin":0,
+         "name":"pokemon_tileset_from_public_tiles_32x32_by_chaoticcherrycake_dab2byf",
+         "spacing":0,
+         "terrains":[
+                {
+                 "name":"earth_way",
+                 "tile":2104
+                }],
+         "tilecount":5208,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":2104,
+                 "terrain":[-1, -1, -1, 0]
+                }, 
+                {
+                 "id":2105,
+                 "terrain":[-1, -1, 0, 0]
+                }, 
+                {
+                 "id":2106,
+                 "terrain":[-1, -1, 0, -1]
+                }, 
+                {
+                 "id":2112,
+                 "terrain":[-1, 0, -1, 0]
+                }, 
+                {
+                 "id":2113,
+                 "terrain":[0, 0, 0, 0]
+                }, 
+                {
+                 "id":2114,
+                 "terrain":[0, -1, 0, -1]
+                }, 
+                {
+                 "id":2120,
+                 "terrain":[-1, 0, -1, -1]
+                }, 
+                {
+                 "id":2121,
+                 "terrain":[0, 0, -1, -1]
+                }, 
+                {
+                 "id":2122,
+                 "terrain":[0, -1, -1, -1]
+                }],
+         "tilewidth":32,
+         "transparentcolor":"#ff00ff"
         }, 
         {
+         "columns":16,
          "firstgid":5209,
-         "source":"TileSets\/office_walls_n_floors.tsx"
+         "image":"tile_images\/Office_walls_floors_32x32.png",
+         "imageheight":384,
+         "imagewidth":512,
+         "margin":0,
+         "name":"office_walls_n_floors",
+         "spacing":0,
+         "tilecount":192,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":8,
          "firstgid":5401,
-         "source":"TileSets\/interior.tsx"
+         "image":"tile_images\/hi_res_interior_general_tileset_by_akizakura16_d9qifn2.png",
+         "imageheight":19168,
+         "imagewidth":256,
+         "margin":0,
+         "name":"interior",
+         "spacing":0,
+         "tilecount":4792,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":12,
          "firstgid":10193,
-         "source":"TileSets\/Tileset_32x32_16.tsx"
+         "image":"tile_images\/Tileset_32x32_16.png",
+         "imageheight":448,
+         "imagewidth":384,
+         "margin":0,
+         "name":"Tileset_32x32_16",
+         "spacing":0,
+         "tilecount":168,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":10361,
-         "source":"TileSets\/request_april_by_nicnubill_d7dvydh.tsx"
+         "image":"tile_images\/request_april_by_nicnubill_d7dvydh.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"request_april_by_nicnubill_d7dvydh",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":10617,
-         "source":"TileSets\/Interiors_free_32x32.tsx"
+         "image":"tile_images\/Interiors_free_32x32.png",
+         "imageheight":1792,
+         "imagewidth":512,
+         "margin":0,
+         "name":"Interiors_free_32x32",
+         "spacing":0,
+         "tilecount":896,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":22,
          "firstgid":11513,
-         "source":"TileSets\/office_stuff.tsx"
+         "image":"tile_images\/Office_interiors_32x32.png",
+         "imageheight":768,
+         "imagewidth":704,
+         "margin":0,
+         "name":"office_stuff",
+         "spacing":0,
+         "tilecount":528,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":6,
          "firstgid":12041,
-         "source":"TileSets\/Dungeon Tileset + Spikes.tsx"
+         "image":"tile_images\/Dungeon Tileset + Spikes.png",
+         "imageheight":176,
+         "imagewidth":208,
+         "margin":0,
+         "name":"Dungeon Tileset + Spikes",
+         "spacing":0,
+         "tilecount":30,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":6,
          "firstgid":12071,
-         "source":"buttonset1.tsx"
+         "image":"tile_images\/buttonset1.png",
+         "imageheight":64,
+         "imagewidth":192,
+         "margin":0,
+         "name":"buttonset1",
+         "spacing":0,
+         "tilecount":12,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":12083,
-         "source":"TileSets\/tilesets_fsm_rm2k3_para_vx_ace__set_hospital_by_milkian_darwnhe.tsx"
+         "image":"tile_images\/tilesets_fsm_rm2k3_para_vx_ace__set_hospital_by_milkian_darwnhe.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"tilesets_fsm_rm2k3_para_vx_ace__set_hospital_by_milkian_darwnhe",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":8,
          "firstgid":12339,
-         "source":"TileSets\/passages.tsx"
+         "image":"tile_images\/passages_32x32.png",
+         "imageheight":64,
+         "imagewidth":256,
+         "margin":0,
+         "name":"passages",
+         "spacing":0,
+         "tilecount":16,
+         "tileheight":32,
+         "tilewidth":32,
+         "transparentcolor":"#ff00ff"
         }],
  "tilewidth":32,
  "type":"map",
