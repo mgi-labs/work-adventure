@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="left-up" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="75" nextobjectid="1">
- <tileset firstgid="1" source="TileSets/pokemon_tileset_from_public_tiles_32x32_by_chaoticcherrycake_dab2byf.tsx"/>
- <tileset firstgid="5209" source="TileSets/office_walls_n_floors.tsx"/>
- <tileset firstgid="5401" source="TileSets/interior.tsx"/>
- <tileset firstgid="10193" source="TileSets/Tileset_32x32_16.tsx"/>
- <tileset firstgid="10361" source="TileSets/request_april_by_nicnubill_d7dvydh.tsx"/>
- <tileset firstgid="10617" source="TileSets/Interiors_free_32x32.tsx"/>
- <tileset firstgid="11513" source="TileSets/office_stuff.tsx"/>
- <tileset firstgid="12041" source="TileSets/Dungeon Tileset + Spikes.tsx"/>
- <tileset firstgid="12071" source="buttonset1.tsx"/>
- <tileset firstgid="12083" source="TileSets/tilesets_fsm_rm2k3_para_vx_ace__set_hospital_by_milkian_darwnhe.tsx"/>
- <tileset firstgid="12339" source="TileSets/passages.tsx"/>
+ <editorsettings>
+  <export target="map.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="pokemon_tileset_from_public_tiles_32x32_by_chaoticcherrycake_dab2byf" tilewidth="32" tileheight="32" tilecount="5208" columns="8">
+  <image source="tile_images/pokemon_tileset_from_public_tiles_32x32_by_chaoticcherrycake_dab2byf.png" trans="ff00ff" width="256" height="20832"/>
+  <terraintypes>
+   <terrain name="earth_way" tile="2104"/>
+  </terraintypes>
+  <tile id="2104" terrain=",,,0"/>
+  <tile id="2105" terrain=",,0,0"/>
+  <tile id="2106" terrain=",,0,"/>
+  <tile id="2112" terrain=",0,,0"/>
+  <tile id="2113" terrain="0,0,0,0"/>
+  <tile id="2114" terrain="0,,0,"/>
+  <tile id="2120" terrain=",0,,"/>
+  <tile id="2121" terrain="0,0,,"/>
+  <tile id="2122" terrain="0,,,"/>
+ </tileset>
+ <tileset firstgid="5209" name="office_walls_n_floors" tilewidth="32" tileheight="32" tilecount="192" columns="16">
+  <image source="tile_images/Office_walls_floors_32x32.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="5401" name="interior" tilewidth="32" tileheight="32" tilecount="4792" columns="8">
+  <image source="tile_images/hi_res_interior_general_tileset_by_akizakura16_d9qifn2.png" width="256" height="19168"/>
+ </tileset>
+ <tileset firstgid="10193" name="Tileset_32x32_16" tilewidth="32" tileheight="32" tilecount="168" columns="12">
+  <image source="tile_images/Tileset_32x32_16.png" width="384" height="448"/>
+ </tileset>
+ <tileset firstgid="10361" name="request_april_by_nicnubill_d7dvydh" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="tile_images/request_april_by_nicnubill_d7dvydh.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="10617" name="Interiors_free_32x32" tilewidth="32" tileheight="32" tilecount="896" columns="16">
+  <image source="tile_images/Interiors_free_32x32.png" width="512" height="1792"/>
+ </tileset>
+ <tileset firstgid="11513" name="office_stuff" tilewidth="32" tileheight="32" tilecount="528" columns="22">
+  <image source="tile_images/Office_interiors_32x32.png" width="704" height="768"/>
+ </tileset>
+ <tileset firstgid="12041" name="Dungeon Tileset + Spikes" tilewidth="32" tileheight="32" tilecount="30" columns="6">
+  <image source="tile_images/Dungeon Tileset + Spikes.png" width="208" height="176"/>
+ </tileset>
+ <tileset firstgid="12071" name="buttonset1" tilewidth="32" tileheight="32" tilecount="12" columns="6">
+  <image source="tile_images/buttonset1.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="12083" name="tilesets_fsm_rm2k3_para_vx_ace__set_hospital_by_milkian_darwnhe" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="tile_images/tilesets_fsm_rm2k3_para_vx_ace__set_hospital_by_milkian_darwnhe.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="12339" name="passages" tilewidth="32" tileheight="32" tilecount="16" columns="8">
+  <image source="tile_images/passages_32x32.png" trans="ff00ff" width="256" height="64"/>
+ </tileset>
  <layer id="6" name="floor1" width="64" height="64">
   <data encoding="base64" compression="zlib">
    eJztmlFqwzAMhnOIvu2hR9hNN7o9bYPuJukNkhs0V5kDMxhhyVIs2W6RQBCI80dfZDuyk2lyc3Nzc9vt5fW53fmd3/md3/mdn8v/dpqmd8R782wnPD4t/mvQ+g0+B7/9H0cfgR+LT5s/5yPxc2Kr5Yf3wsaFxLfK6+8d+aW+Fs4vlfoW/LvHuHJzQIlJ6rl7SNqtCHsNPxaD1EpMWnra/JtSvLsONWdp6Tm/DT+cnzT510q9xYg/1lfa+crNXzV6qY5F/Zebe7XitXielvyjj/9e/JfzNH0E/zzr8VOaLflztRm0rxDjd/AfRX5Ks1f+Y81H1eVa/PEa6RrAuv6D8020dA6m4oXtuc+TUx+3qn9zueO0XYXtOfpW73+q/svFR/XvFu0t1j8l/utA/D3yn+NP18X3zLEGPzYXtKp/U+fsyaR9lGqfe9dK9K3r30dwK/60z0mtlOMaPdi/NPmxcSa1fexS411Tr0X/d/5x+Dl7QEf4qfpvVH6r+her+Y/ya+rNhvzbA+S/1Pet+Et7Hpx4uftp8F5Yf7Lgh+/ruIYr7Xlw+FM9yuC9WuSfqn9Lex4xPu43Sy29XvUvtnfBvV5TrxU/93tl6lCTmhOP3qdF/XvU4T8rHH6p9+j/nJwtgvxLv4WX9sC0+aWWXkvtiR7Ra5X/mvXvVujrR/Sw8Tli/iG/Rv3b8v8nbX6t/FvyazrFT+1ba/nI/FjOnpUfjv1HzT/1f7D0n0WJxij8aV+ewfENOVdyuNbU6itW/FSdRj2TXFvqfO1c0Xv893bnd37nd4v2B9G/TIs=
