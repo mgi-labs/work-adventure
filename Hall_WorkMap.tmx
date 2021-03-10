@@ -48,7 +48,7 @@
  <tileset firstgid="12339" name="passages" tilewidth="32" tileheight="32" tilecount="16" columns="8">
   <image source="tile_images/passages_32x32.png" trans="ff00ff" width="256" height="64"/>
  </tileset>
- <layer id="6" name="floor1" width="64" height="64">
+ <layer id="6" name="floorLayer" width="64" height="64">
   <data encoding="base64" compression="zlib">
    eJztmlFqwzAMhnOIvu2hR9hNN7o9bYPuJukNkhs0V5kDMxhhyVIs2W6RQBCI80dfZDuyk2lyc3Nzc9vt5fW53fmd3/md3/mdn8v/dpqmd8R782wnPD4t/mvQ+g0+B7/9H0cfgR+LT5s/5yPxc2Kr5Yf3wsaFxLfK6+8d+aW+Fs4vlfoW/LvHuHJzQIlJ6rl7SNqtCHsNPxaD1EpMWnra/JtSvLsONWdp6Tm/DT+cnzT510q9xYg/1lfa+crNXzV6qY5F/Zebe7XitXielvyjj/9e/JfzNH0E/zzr8VOaLflztRm0rxDjd/AfRX5Ks1f+Y81H1eVa/PEa6RrAuv6D8020dA6m4oXtuc+TUx+3qn9zueO0XYXtOfpW73+q/svFR/XvFu0t1j8l/utA/D3yn+NP18X3zLEGPzYXtKp/U+fsyaR9lGqfe9dK9K3r30dwK/60z0mtlOMaPdi/NPmxcSa1fexS411Tr0X/d/5x+Dl7QEf4qfpvVH6r+her+Y/ya+rNhvzbA+S/1Pet+Et7Hpx4uftp8F5Yf7Lgh+/ruIYr7Xlw+FM9yuC9WuSfqn9Lex4xPu43Sy29XvUvtnfBvV5TrxU/93tl6lCTmhOP3qdF/XvU4T8rHH6p9+j/nJwtgvxLv4WX9sC0+aWWXkvtiR7Ra5X/mvXvVujrR/Sw8Tli/iG/Rv3b8v8nbX6t/FvyazrFT+1ba/nI/FjOnpUfjv1HzT/1f7D0n0WJxij8aV+ewfENOVdyuNbU6itW/FSdRj2TXFvqfO1c0Xv893bnd37nd4v2B9G/TIs=
   </data>
