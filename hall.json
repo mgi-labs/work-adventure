@@ -15,7 +15,7 @@
          "height":64,
          "id":74,
          "name":"meet",
-         "opacity":1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"jitsiRoom",
@@ -23,7 +23,7 @@
                  "value":"Pause"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":64,
          "x":0,
          "y":0
