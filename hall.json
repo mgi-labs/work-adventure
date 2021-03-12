@@ -46,6 +46,12 @@
          "id":73,
          "name":"passages",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"Collides",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":64,
