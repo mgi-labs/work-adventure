@@ -45,7 +45,7 @@
          "height":64,
          "id":73,
          "name":"passages",
-         "opacity":0.99,
+         "opacity":0,
          "type":"tilelayer",
          "visible":true,
          "width":64,
