@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="left-up" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="1">
- <tileset firstgid="1" source="TileSets/Tileset_32x32_16.tsx"/>
- <tileset firstgid="169" source="TileSets/office_walls_n_floors.tsx"/>
- <tileset firstgid="361" source="TileSets/Dungeon Tileset + Spikes.tsx"/>
- <tileset firstgid="391" source="TileSets/Interiors_free_32x32.tsx"/>
- <tileset firstgid="1287" source="TileSets/office_stuff.tsx"/>
- <tileset firstgid="1815" source="TileSets/interior.tsx"/>
- <tileset firstgid="6607" source="../TestMap/passages.tsx"/>
- <layer id="1" name="floor1" width="32" height="32">
+ <tileset firstgid="1" name="Tileset_32x32_16" tilewidth="32" tileheight="32" tilecount="168" columns="12">
+  <image source="tile_images/Tileset_32x32_16.png" width="384" height="448"/>
+ </tileset>
+ <tileset firstgid="169" name="office_walls_n_floors" tilewidth="32" tileheight="32" tilecount="192" columns="16">
+  <image source="tile_images/Office_walls_floors_32x32.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="361" name="Dungeon Tileset + Spikes" tilewidth="32" tileheight="32" tilecount="30" columns="6">
+  <image source="tile_images/Dungeon Tileset + Spikes.png" width="208" height="176"/>
+ </tileset>
+ <tileset firstgid="391" name="Interiors_free_32x32" tilewidth="32" tileheight="32" tilecount="896" columns="16">
+  <image source="tile_images/Interiors_free_32x32.png" width="512" height="1792"/>
+ </tileset>
+ <tileset firstgid="1287" name="office_stuff" tilewidth="32" tileheight="32" tilecount="528" columns="22">
+  <image source="tile_images/Office_interiors_32x32.png" width="704" height="768"/>
+ </tileset>
+ <tileset firstgid="1815" name="interior" tilewidth="32" tileheight="32" tilecount="4792" columns="8">
+  <image source="tile_images/hi_res_interior_general_tileset_by_akizakura16_d9qifn2.png" width="256" height="19168"/>
+ </tileset>
+ <tileset firstgid="6607" name="passages" tilewidth="32" tileheight="32" tilecount="16" columns="8">
+  <image source="tile_images/passages_32x32.png" trans="ff00ff" width="256" height="64"/>
+ </tileset>
+ <layer id="1" name="floor1" width="32" height="32" opacity="0.98">
   <data encoding="base64" compression="zlib">
    eJztln0OwyAIxfVm+zhAba+zy2//mL0aBAaoydKXkDRW+xN4NaZ06dJX98HB6ZFTek6Ino7Puy04SvO8T+JXFjU2M/9/4Nd1bYzi93jIleZw4eV7w9J/9DPub0X9R+cfzS/Zlv9GrLWyPfX/9Z+gzj9cb8lf46sovhTSvMIwOGH+vfOv8qWeW/maPh/5XFuqD9782+/jmHRPGc3H/Cmfefmcfzk+nhWUXsK+KH7LKfnsk0i+9v6J/u/1ypt/+x9S9Uc+1iDKf5r+97xi5d8UIc2zajV/hd4rkb4Z
   </data>
