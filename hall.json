@@ -235,7 +235,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/commandesenligne.lapethttps:\/\/www.lapetitepause.fr\/itepause.fr"
+                 "value":"https:\/\/www.lapetitepause.fr"
                 }],
          "type":"tilelayer",
          "visible":true,
