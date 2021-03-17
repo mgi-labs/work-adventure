@@ -235,7 +235,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/commandesenligne.lapetitepause.fr\/Boutique.htm"
+                 "value":"https:\/\/commandesenligne.lapetitepause.fr"
                 }],
          "type":"tilelayer",
          "visible":true,
