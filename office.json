@@ -247,7 +247,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/roi-alphajet.osc-fr1.scalingo.io\/"
+                 "value":"https:\/\/dashboard.mgi-labs.com\/dashboards\/2"
                 }],
          "type":"tilelayer",
          "visible":true,
