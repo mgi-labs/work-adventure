@@ -247,7 +247,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.youtube.com\/embed\/GoLx5MKrr-g"
+                 "value":"https:\/\/roi-alphajet.osc-fr1.scalingo.io\/"
                 }],
          "type":"tilelayer",
          "visible":true,
