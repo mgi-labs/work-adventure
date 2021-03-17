@@ -247,7 +247,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/miro.com\/app\/board\/o9J_kuTdsTw=\/"
+                 "value":"https:\/\/miro.com"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -260,7 +260,7 @@
          "height":32,
          "id":14,
          "name":"passages",
-         "opacity":0.21,
+         "opacity":0,
          "properties":[
                 {
                  "name":"collides",
