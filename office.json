@@ -38,7 +38,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"Daily"
+                 "value":"JDKRoom"
                 }],
          "type":"tilelayer",
          "visible":true,
