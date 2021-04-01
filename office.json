@@ -194,7 +194,7 @@
          "height":32,
          "id":13,
          "name":"stuff4",
-         "opacity":0.8,
+         "opacity":0.9,
          "type":"tilelayer",
          "visible":true,
          "width":32,
