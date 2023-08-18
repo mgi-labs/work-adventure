@@ -47,7 +47,13 @@
               "name":"test-entry",
               "opacity":0,
               "type":"tilelayer",
-              "startLayer": true,
+              
+              "properties":[
+                     {
+                      "name":"startLayer",
+                      "type":"bool",
+                      "value":true
+                     }],
               "visible":true,
               "width":64,
               "x":0,
